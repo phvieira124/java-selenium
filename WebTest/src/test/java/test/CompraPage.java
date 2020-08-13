@@ -23,7 +23,7 @@ public class CompraPage {
 	}
 	
 	public void clicarItem() {
-		driver.findElements(By.className("item__info-title")).get(0).click();
+		
 	}
 	
 	public void adicionarCarrinho() throws InterruptedException {

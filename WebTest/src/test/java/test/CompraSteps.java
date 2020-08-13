@@ -17,7 +17,6 @@ public class CompraSteps {
 	public void que_acesso_no_mercado_livre()throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "/Users/Inmetrics2/Downloads/chromedriver");
 		driver = new ChromeDriver();
-		driver.get("https://www.mercadolivre.com.br/");
 		
 	}
 
